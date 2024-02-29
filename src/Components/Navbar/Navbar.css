@@ -1,0 +1,44 @@
+#Navbar{
+    background: rgba(9, 8, 20, 0.993);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.nav-items ul{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.nav-items ul li{
+    list-style-type: none;
+    
+}
+.nav-items ul li a{
+text-decoration: none;
+color: #9c9c9c;
+}
+.searchInput{
+    width: 200px;
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: black;
+    z-index: 1;
+    padding: 0.3rem;
+}
+
+@media (max-width: 826px) {
+    #Navbar {
+        height: auto; 
+    }
+    #Navbar ul {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+}

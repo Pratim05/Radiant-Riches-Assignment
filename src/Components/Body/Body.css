@@ -1,0 +1,132 @@
+
+#Body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 80vw;
+  gap: 0.5rem;
+}
+#Body .heading{
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.border-t-b{
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  gap: 1.5rem;
+  width: 100%;
+}
+#Top-relevants{
+  margin-left: auto;
+}
+
+select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+    background: transparent;
+  }
+  
+  select:focus{
+    outline:none;
+  }
+
+  .quick-btns{
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    gap: 1.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    list-style: none;
+    justify-content: space-between;
+    
+  }
+  .quick-btns li{
+    background: #fff;
+    padding: 4px;
+    padding-inline: 8px;
+    border-radius: 4px;
+    color: black;
+  }
+
+  .breadcrumb{
+    display: flex;
+    width: max-content;
+    margin-right: auto;
+    gap: 1.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    list-style: none;
+    justify-content: space-between;
+  }
+  .breadcrumb li a{
+    padding-left: 4px;
+  
+  }
+
+.related-deals{
+  width: 100%;
+}
+h2{
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.deals-card{
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+
+form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+}
+
+.inputs input[type='text']{
+  width: 500px;
+height: 30px;
+margin-right: -10px;
+border-radius: 5px 0 0 5px;
+}
+.inputs input[type='submit']{
+  width: 100px;
+  padding: 9px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(43, 79, 197);
+  border-radius: 0 05px 5px 0;
+}
+
+
+
+
+@media (max-width: 826px) {
+   
+  #Body{
+    width: 60vw;
+    align-items: center;
+  }
+  .deals-card{
+    gap: 10px;
+    flex-direction: column;
+  }
+  form{
+    flex-direction: column;
+  }
+
+}

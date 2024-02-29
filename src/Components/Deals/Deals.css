@@ -1,0 +1,45 @@
+.Deals{
+    flex-direction: column;  
+    padding: 10px;  
+    width: 300px;
+    gap: 0.5rem;
+    background: #fff;
+}
+.Deals .image{
+    margin: 24px;
+}
+.Deals .discounts{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Deals .description{
+    font-weight: 400;
+}
+.prices{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: baseline;
+  
+    
+}
+.prices .price{
+    color: rgb(48, 51, 51);
+    font-size: 16px;
+    font-weight: 300;
+}
+.prices .real-price{
+    font-weight: 300;
+    color: rgb(110, 116, 116);
+    font-size: 12px;
+   padding-top: 5px;
+}
+.prices .off-per{
+    font-weight: 300;
+    color:rgb(236, 21, 21);
+    font-size: 12px;
+    padding-top: 5px;
+}
+
